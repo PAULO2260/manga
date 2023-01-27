@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://media.tenor.com/0VqDj3YhG-sAAAAS/kiss-love-is-love.gif');
+
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.container {
+  margin: 86px auto;
+  width: 80%;
+  /* margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%; */
+} 
+
+/* img {
+    width: 10px;   
+} */
+
+.foto-manga{
+    width: 100%;
+    height: 728px;
+    object-fit: cover;
+    object-position: 0 -80px
+
+}
+.guinness{
+    text-align: center;
+}
+
+.manga-arcoiris {
+    height: 462px;
+    width: 100%;
+    object-fit: cover;
+}
+.manga-pequena {
+    display: inline-block;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    border: 2px 2px gray;
+}
+.titulo{
+    font-size: -webkit-xxx-large;
+    font-family: 'Anton', sans-serif;
+    color: coral;
+
+}
+.revista{
+
+
+}
+
+
+.hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
